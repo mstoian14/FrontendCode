@@ -1,0 +1,5 @@
+
+<p></p>Color: <select ng-options="color as color.text for color in colors track by color.text" ng-model="myText1"></select></p>
+<p>Color group by: <select ng-model="myText2" ng-options="color.text group by color.type for color in colors" ng-change="changeColor()">
+</select></p>
+<p><span ng-class="saveColor">Ceva</span></p>

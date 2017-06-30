@@ -11,4 +11,8 @@ hrApp.controller('UserAddController', ['$scope', '$location', function($scope, $
         $location.url('/');
 
     }
+    $scope.resetInfo = function() {
+        $scope.user = {};
+
+    }
 }]);
